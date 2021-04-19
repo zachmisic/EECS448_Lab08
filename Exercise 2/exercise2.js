@@ -1,6 +1,8 @@
+var createImage = document.createElement("INPUT");
+createImage.setAttribute("type", "text");
 var image = 1;
 
-function left(form) {
+function leftClick(form) {
     image--;
     if (image < 1) {
         image = 5;
@@ -8,7 +10,7 @@ function left(form) {
     select();
 }
 
-function right(form) {
+function rightClick(form) {
     image++;
     if (image > 5) {
         image = 1
@@ -34,5 +36,7 @@ function select() {
             document.getElementById("image").src = "ket5.jpg";
             break;
         default: 
+            document.getElementById("image").src = "ket1.jpg";
+
     }
 }
