@@ -1,0 +1,25 @@
+h {
+    background-color: blue;
+    color: white;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+h:hover {
+    background-color: white;
+    color: blue;
+}
+
+body {
+    background-color: #fcccef;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+p {
+    background-image: url(background.jpg);
+    color: black;
+    font-family: sans-serif;
+    font-size: 16pt;
+}
